@@ -1,6 +1,6 @@
 class ResistorColor {
   // Put your code here
-  List<String> colorMap = [
+  List<String> colors = [
     "Black",
     "Brown",
     "Red",
@@ -14,6 +14,6 @@ class ResistorColor {
   ];
 
   int colorCode(String color) {
-    return colorMap.indexOf(color);
+    return colors.indexOf(color);
   }
 }
